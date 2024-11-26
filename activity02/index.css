@@ -1,0 +1,45 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	transition: all 0.3s;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+#reload,
+#password {
+	max-width: auto;
+}
+
+#re-load {
+	width: 4rem;
+}
+
+#output-rel,
+#output-bal #output,
+#output_num,
+#output_amt,
+#output_bal {
+	margin-bottom: 0;
+}
+
+.table-striped {
+	max-width: 50%;
+}
+
+section {
+	text-align: center;
+}
+
+.card {
+	max-width: 20rem;
+	max-height: auto;
+	text-align: center;
+}
