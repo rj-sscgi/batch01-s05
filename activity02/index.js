@@ -15,17 +15,16 @@ document.getElementById("register").addEventListener(
 	function () {
 		let mobile_number = document.getElementById("mobile_number").value;
 		let amount = document.getElementById("amount").value;
-		current_amt = current_amt - amount;
-
-		// stores the current_amt in local storage
-		localStorage.setItem("current_amt", current_amt);
 
 		//Display Input Values
 		if (amount > current_amt) {
+			// stores the current_amt in local storage
+			localStorage.setItem("current_amt", current_amt);
 			const output = `You don't have a sufficient amount to process this transaction.`;
 			document.getElementById("output").textContent = output;
 			document.getElementById("pasaload-form").reset();
-		} else if (mobile_number && amount) {
+		} else if (mobile_number && amount && amount <= current_amt) {
+			current_amt = current_amt - amount;
 			const output_num = `Mobile Number: ${mobile_number}.`;
 			document.getElementById("output_num").textContent = output_num;
 
