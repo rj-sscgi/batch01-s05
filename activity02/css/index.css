@@ -1,0 +1,75 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	transition: all 0.3s;
+}
+
+body {
+	font-family: "Open Sans", sans-serif !important;
+	background-color: #339af0 !important;
+}
+
+a {
+	text-decoration: none;
+}
+
+#reload,
+#password {
+	max-width: auto;
+}
+
+#re-load {
+	width: 4rem;
+}
+
+#output-rel,
+#output-bal #output,
+#output_num,
+#output_amt,
+#output_bal {
+	margin-bottom: 0;
+}
+
+.table-striped {
+	max-width: 50%;
+}
+
+section {
+	text-align: center;
+}
+
+.card {
+	max-width: 20rem;
+	max-height: auto;
+	text-align: center;
+}
+
+p {
+	margin-bottom: 0;
+	padding: 0;
+}
+
+#toast-balance {
+	position: absolute;
+	top: 70px;
+	right: 20px;
+}
+
+#pasaload_history {
+	width: 100%;
+	max-width: 400px;
+}
+
+.header {
+	background: url(../img/header-background.jpg) center center no-repeat;
+	background-size: cover;
+}
+.bg-image {
+	background-image: url("img/header-background.jpg"); /* Path to your image */
+	background-size: cover; /* Ensures the image covers the container */
+	background-position: center; /* Centers the image */
+	background-repeat: no-repeat; /* Prevents the image from repeating */
+	height: 300px; /* Set the desired height for the container */
+	width: 100%; /* Full width of the parent container */
+}
