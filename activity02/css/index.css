@@ -79,3 +79,11 @@ p {
 #login-head {
 	color: white;
 }
+
+@media (max-width: 576px) {
+	#pasaload_history {
+		width: 100%;
+		max-width: 500px;
+		font-size: 12px;
+	}
+}

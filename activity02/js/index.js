@@ -81,7 +81,7 @@ function add_pasaload_history(mobile_number, amount, current_amt) {
         <td>${date_time}</td>
         <td>${mobile_number}</td>
         <td>${amount}</td>
-		<td>${current_amt}</td>
+		<td class="d-none d-sm-table-cell">${current_amt}</td>
     `;
 
 	// Append the row to the table
