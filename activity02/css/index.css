@@ -64,7 +64,7 @@ p {
 	.toast-container {
 		top: 10px;
 		left: 50%;
-		transform: translateX(-50%); /* Center the toast horizontally */
+		transform: translateX(-50%);
 	}
 }
 
@@ -84,6 +84,9 @@ p {
 	#pasaload_history {
 		width: 100%;
 		max-width: 500px;
+<<<<<<< HEAD
 		font-size: 12px;
+=======
+>>>>>>> 0eea7d57b86da3104bf93686ba5903d7e2dd8b3d
 	}
 }
