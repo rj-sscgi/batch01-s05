@@ -60,6 +60,14 @@ p {
 	right: 20px;
 }
 
+@media (max-width: 576px) {
+	.toast-container {
+		top: 10px;
+		left: 50%;
+		transform: translateX(-50%); /* Center the toast horizontally */
+	}
+}
+
 #pasaload_history {
 	width: 100%;
 	max-width: 700px;
