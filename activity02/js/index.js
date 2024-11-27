@@ -4,35 +4,6 @@ if (isNaN(current_amt)) {
 	current_amt = 200;
 }
 
-// // Check balance
-// document.getElementById("show_bal").addEventListener(
-// 	"mouseleave",
-
-// 	function () {
-// 		const output_1 = ``;
-// 		document.getElementById("output_1").textContent = output_1;
-// 		const output_2 = ``;
-// 		document.getElementById("output_2").textContent = output_2;
-// 		const output_3 = ``;
-// 		document.getElementById("output_3").textContent = output_3;
-// 	}
-// );
-
-// // Check balance
-// document.getElementById("show_bal").addEventListener(
-// 	"mouseover",
-
-// 	function () {
-// 		const output_1 = `Current Amount: ${current_amt}`;
-// 		document.getElementById("output_1").textContent = output_1;
-
-// 		const output_2 = ``;
-// 		document.getElementById("output_2").textContent = output_2;
-// 		const output_3 = ``;
-// 		document.getElementById("output_3").textContent = output_3;
-// 	}
-// );
-
 document.getElementById("register").addEventListener(
 	"click",
 

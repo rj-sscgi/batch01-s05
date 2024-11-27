@@ -5,9 +5,13 @@
 	transition: all 0.3s;
 }
 
+html {
+	font-size: 18px;
+}
+
 body {
 	font-family: "Open Sans", sans-serif !important;
-	background-color: #339af0 !important;
+	background: linear-gradient(to right, #339af0, #111920);
 }
 
 a {
@@ -58,18 +62,12 @@ p {
 
 #pasaload_history {
 	width: 100%;
-	max-width: 400px;
+	max-width: 700px;
 }
 
-.header {
-	background: url(../img/header-background.jpg) center center no-repeat;
-	background-size: cover;
-}
-.bg-image {
-	background-image: url("img/header-background.jpg"); /* Path to your image */
-	background-size: cover; /* Ensures the image covers the container */
-	background-position: center; /* Centers the image */
-	background-repeat: no-repeat; /* Prevents the image from repeating */
-	height: 300px; /* Set the desired height for the container */
-	width: 100%; /* Full width of the parent container */
+.form-label,
+#output-rel,
+#output-bal,
+#login-head {
+	color: white;
 }
